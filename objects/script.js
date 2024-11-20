@@ -3,8 +3,8 @@ console.log('objects in js')
 // calculator program using object - 20/11/2024
 
 calculator = {
-    a,
-    b,
+    a : undefined,
+    b : undefined,
     read(){
         this.a = prompt('Enter a number ', '');
         this.b = prompt('Enter another number ', '');
